@@ -6312,3 +6312,717 @@ Processing by AuthorsController#show_all_books as HTML
 Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.3ms | Allocations: 5585)
 
 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 0], ["name", "Author 0"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 1], ["name", "Author 1"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 2], ["name", "Author 2"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 3], ["name", "Author 3"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 4], ["name", "Author 4"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 5], ["name", "Author 5"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 6], ["name", "Author 6"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 7], ["name", "Author 7"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 8], ["name", "Author 8"], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 9], ["name", "Author 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 0], ["author_id", 0], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 1], ["author_id", 0], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 2], ["author_id", 0], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 3], ["author_id", 0], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 4], ["author_id", 0], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 5], ["author_id", 0], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 6], ["author_id", 0], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 7], ["author_id", 0], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 8], ["author_id", 0], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 9], ["author_id", 0], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 10], ["author_id", 1], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 11], ["author_id", 1], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 12], ["author_id", 1], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 13], ["author_id", 1], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 14], ["author_id", 1], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 15], ["author_id", 1], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 16], ["author_id", 1], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 17], ["author_id", 1], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 18], ["author_id", 1], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 19], ["author_id", 1], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 20], ["author_id", 2], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 21], ["author_id", 2], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 22], ["author_id", 2], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 23], ["author_id", 2], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 24], ["author_id", 2], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 25], ["author_id", 2], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 26], ["author_id", 2], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 27], ["author_id", 2], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 28], ["author_id", 2], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 29], ["author_id", 2], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 30], ["author_id", 3], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 31], ["author_id", 3], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 32], ["author_id", 3], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 33], ["author_id", 3], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 34], ["author_id", 3], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 35], ["author_id", 3], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 36], ["author_id", 3], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 37], ["author_id", 3], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 38], ["author_id", 3], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 39], ["author_id", 3], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 40], ["author_id", 4], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 41], ["author_id", 4], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 42], ["author_id", 4], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 43], ["author_id", 4], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 44], ["author_id", 4], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 45], ["author_id", 4], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 46], ["author_id", 4], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 47], ["author_id", 4], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 48], ["author_id", 4], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 49], ["author_id", 4], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 50], ["author_id", 5], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 51], ["author_id", 5], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 52], ["author_id", 5], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 53], ["author_id", 5], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 54], ["author_id", 5], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 55], ["author_id", 5], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 56], ["author_id", 5], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 57], ["author_id", 5], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 58], ["author_id", 5], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 59], ["author_id", 5], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 60], ["author_id", 6], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 61], ["author_id", 6], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 62], ["author_id", 6], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 63], ["author_id", 6], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 64], ["author_id", 6], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 65], ["author_id", 6], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 66], ["author_id", 6], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 67], ["author_id", 6], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 68], ["author_id", 6], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 69], ["author_id", 6], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 70], ["author_id", 7], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 71], ["author_id", 7], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 72], ["author_id", 7], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 73], ["author_id", 7], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 74], ["author_id", 7], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 75], ["author_id", 7], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 76], ["author_id", 7], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 77], ["author_id", 7], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 78], ["author_id", 7], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 79], ["author_id", 7], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 80], ["author_id", 8], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 81], ["author_id", 8], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 82], ["author_id", 8], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 83], ["author_id", 8], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 84], ["author_id", 8], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 85], ["author_id", 8], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 86], ["author_id", 8], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 87], ["author_id", 8], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 88], ["author_id", 8], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 89], ["author_id", 8], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 90], ["author_id", 9], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 91], ["author_id", 9], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 92], ["author_id", 9], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 93], ["author_id", 9], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 94], ["author_id", 9], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 95], ["author_id", 9], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 96], ["author_id", 9], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 97], ["author_id", 9], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 98], ["author_id", 9], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 99], ["author_id", 9], ["name", "Book 9"], ["LIMIT", 1]]
+Started GET "/" for ::1 at 2021-10-29 16:30:35 +0600
+Processing by AuthorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering authors/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/authors/index.html.erb:13
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
+  ↳ app/views/authors/index.html.erb:13
+  Rendered authors/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2755)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 5895)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.5ms | Allocations: 6353)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mAuthor Destroy (54.0ms)[0m  [1m[31mDELETE FROM "authors"[0m
+  [1m[36mBook Destroy (72.7ms)[0m  [1m[31mDELETE FROM "books"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 0], ["name", "Author 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 0], ["name", "Author 0"], ["created_at", "2021-10-29 10:31:03.238102"], ["updated_at", "2021-10-29 10:31:03.238102"]]
+  [1m[36mTRANSACTION (71.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 1], ["name", "Author 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 1], ["name", "Author 1"], ["created_at", "2021-10-29 10:31:03.314478"], ["updated_at", "2021-10-29 10:31:03.314478"]]
+  [1m[36mTRANSACTION (78.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 2], ["name", "Author 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 2], ["name", "Author 2"], ["created_at", "2021-10-29 10:31:03.398097"], ["updated_at", "2021-10-29 10:31:03.398097"]]
+  [1m[36mTRANSACTION (54.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 3], ["name", "Author 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 3], ["name", "Author 3"], ["created_at", "2021-10-29 10:31:03.456805"], ["updated_at", "2021-10-29 10:31:03.456805"]]
+  [1m[36mTRANSACTION (54.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 4], ["name", "Author 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.4ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 4], ["name", "Author 4"], ["created_at", "2021-10-29 10:31:03.516935"], ["updated_at", "2021-10-29 10:31:03.516935"]]
+  [1m[36mTRANSACTION (76.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 5], ["name", "Author 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 5], ["name", "Author 5"], ["created_at", "2021-10-29 10:31:03.600890"], ["updated_at", "2021-10-29 10:31:03.600890"]]
+  [1m[36mTRANSACTION (52.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 6], ["name", "Author 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 6], ["name", "Author 6"], ["created_at", "2021-10-29 10:31:03.658670"], ["updated_at", "2021-10-29 10:31:03.658670"]]
+  [1m[36mTRANSACTION (96.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 7], ["name", "Author 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 7], ["name", "Author 7"], ["created_at", "2021-10-29 10:31:03.760753"], ["updated_at", "2021-10-29 10:31:03.760753"]]
+  [1m[36mTRANSACTION (53.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 8], ["name", "Author 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 8], ["name", "Author 8"], ["created_at", "2021-10-29 10:31:03.819680"], ["updated_at", "2021-10-29 10:31:03.819680"]]
+  [1m[36mTRANSACTION (81.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? AND "authors"."name" = ? LIMIT ?[0m  [["id", 9], ["name", "Author 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Create (0.2ms)[0m  [1m[32mINSERT INTO "authors" ("id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 9], ["name", "Author 9"], ["created_at", "2021-10-29 10:31:03.906490"], ["updated_at", "2021-10-29 10:31:03.906490"]]
+  [1m[36mTRANSACTION (78.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 0], ["author_id", 0], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 0], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.000669"], ["updated_at", "2021-10-29 10:31:04.000669"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (78.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 1], ["author_id", 0], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.085551"], ["updated_at", "2021-10-29 10:31:04.085551"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (53.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 2], ["author_id", 0], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 2], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.145364"], ["updated_at", "2021-10-29 10:31:04.145364"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (51.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 3], ["author_id", 0], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 3], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.203851"], ["updated_at", "2021-10-29 10:31:04.203851"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (51.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 4], ["author_id", 0], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 4], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.261918"], ["updated_at", "2021-10-29 10:31:04.261918"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (52.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 5], ["author_id", 0], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 5], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.321621"], ["updated_at", "2021-10-29 10:31:04.321621"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (63.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 6], ["author_id", 0], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 6], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.393797"], ["updated_at", "2021-10-29 10:31:04.393797"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (51.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 7], ["author_id", 0], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 7], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.456570"], ["updated_at", "2021-10-29 10:31:04.456570"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (75.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 8], ["author_id", 0], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (1.5ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 8], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.539223"], ["updated_at", "2021-10-29 10:31:04.539223"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (50.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 9], ["author_id", 0], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 9], ["author_id", 0], ["created_at", "2021-10-29 10:31:04.599219"], ["updated_at", "2021-10-29 10:31:04.599219"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (77.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 10], ["author_id", 1], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.3ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 10], ["author_id", 1], ["created_at", "2021-10-29 10:31:04.683865"], ["updated_at", "2021-10-29 10:31:04.683865"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (77.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 11], ["author_id", 1], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 11], ["author_id", 1], ["created_at", "2021-10-29 10:31:04.768491"], ["updated_at", "2021-10-29 10:31:04.768491"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (77.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 12], ["author_id", 1], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 12], ["author_id", 1], ["created_at", "2021-10-29 10:31:04.854545"], ["updated_at", "2021-10-29 10:31:04.854545"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (49.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 13], ["author_id", 1], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 13], ["author_id", 1], ["created_at", "2021-10-29 10:31:04.911113"], ["updated_at", "2021-10-29 10:31:04.911113"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (59.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 14], ["author_id", 1], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 14], ["author_id", 1], ["created_at", "2021-10-29 10:31:04.978135"], ["updated_at", "2021-10-29 10:31:04.978135"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (52.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 15], ["author_id", 1], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 15], ["author_id", 1], ["created_at", "2021-10-29 10:31:05.038577"], ["updated_at", "2021-10-29 10:31:05.038577"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (51.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 16], ["author_id", 1], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 16], ["author_id", 1], ["created_at", "2021-10-29 10:31:05.096606"], ["updated_at", "2021-10-29 10:31:05.096606"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (49.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 17], ["author_id", 1], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 17], ["author_id", 1], ["created_at", "2021-10-29 10:31:05.154510"], ["updated_at", "2021-10-29 10:31:05.154510"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (52.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 18], ["author_id", 1], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 18], ["author_id", 1], ["created_at", "2021-10-29 10:31:05.214374"], ["updated_at", "2021-10-29 10:31:05.214374"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (51.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 19], ["author_id", 1], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 19], ["author_id", 1], ["created_at", "2021-10-29 10:31:05.273547"], ["updated_at", "2021-10-29 10:31:05.273547"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (51.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 20], ["author_id", 2], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 20], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.332331"], ["updated_at", "2021-10-29 10:31:05.332331"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (102.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 21], ["author_id", 2], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 21], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.441556"], ["updated_at", "2021-10-29 10:31:05.441556"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (106.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 22], ["author_id", 2], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 22], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.555392"], ["updated_at", "2021-10-29 10:31:05.555392"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (50.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 23], ["author_id", 2], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 23], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.614634"], ["updated_at", "2021-10-29 10:31:05.614634"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (48.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 24], ["author_id", 2], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 24], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.670621"], ["updated_at", "2021-10-29 10:31:05.670621"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (49.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 25], ["author_id", 2], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 25], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.727678"], ["updated_at", "2021-10-29 10:31:05.727678"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (51.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 26], ["author_id", 2], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 26], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.786122"], ["updated_at", "2021-10-29 10:31:05.786122"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (73.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 27], ["author_id", 2], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 27], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.867648"], ["updated_at", "2021-10-29 10:31:05.867648"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (74.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 28], ["author_id", 2], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 28], ["author_id", 2], ["created_at", "2021-10-29 10:31:05.950042"], ["updated_at", "2021-10-29 10:31:05.950042"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (73.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 29], ["author_id", 2], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 29], ["author_id", 2], ["created_at", "2021-10-29 10:31:06.031318"], ["updated_at", "2021-10-29 10:31:06.031318"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (50.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 30], ["author_id", 3], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 30], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.089232"], ["updated_at", "2021-10-29 10:31:06.089232"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (74.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 31], ["author_id", 3], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 31], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.171200"], ["updated_at", "2021-10-29 10:31:06.171200"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (50.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 32], ["author_id", 3], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 32], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.229422"], ["updated_at", "2021-10-29 10:31:06.229422"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (50.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 33], ["author_id", 3], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 33], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.289406"], ["updated_at", "2021-10-29 10:31:06.289406"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (46.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 34], ["author_id", 3], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 34], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.346039"], ["updated_at", "2021-10-29 10:31:06.346039"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (48.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 35], ["author_id", 3], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 35], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.401520"], ["updated_at", "2021-10-29 10:31:06.401520"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (50.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 36], ["author_id", 3], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 36], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.461049"], ["updated_at", "2021-10-29 10:31:06.461049"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (48.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 37], ["author_id", 3], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 37], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.516567"], ["updated_at", "2021-10-29 10:31:06.516567"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (50.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 38], ["author_id", 3], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 38], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.575957"], ["updated_at", "2021-10-29 10:31:06.575957"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (50.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 39], ["author_id", 3], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 39], ["author_id", 3], ["created_at", "2021-10-29 10:31:06.632235"], ["updated_at", "2021-10-29 10:31:06.632235"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (49.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 40], ["author_id", 4], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 40], ["author_id", 4], ["created_at", "2021-10-29 10:31:06.688860"], ["updated_at", "2021-10-29 10:31:06.688860"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (52.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 41], ["author_id", 4], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 41], ["author_id", 4], ["created_at", "2021-10-29 10:31:06.748808"], ["updated_at", "2021-10-29 10:31:06.748808"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (48.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 42], ["author_id", 4], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 42], ["author_id", 4], ["created_at", "2021-10-29 10:31:06.805605"], ["updated_at", "2021-10-29 10:31:06.805605"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (48.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 43], ["author_id", 4], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 43], ["author_id", 4], ["created_at", "2021-10-29 10:31:06.861855"], ["updated_at", "2021-10-29 10:31:06.861855"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (50.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 44], ["author_id", 4], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 44], ["author_id", 4], ["created_at", "2021-10-29 10:31:06.922162"], ["updated_at", "2021-10-29 10:31:06.922162"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (47.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 45], ["author_id", 4], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 45], ["author_id", 4], ["created_at", "2021-10-29 10:31:06.977230"], ["updated_at", "2021-10-29 10:31:06.977230"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (49.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 46], ["author_id", 4], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 46], ["author_id", 4], ["created_at", "2021-10-29 10:31:07.034068"], ["updated_at", "2021-10-29 10:31:07.034068"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (51.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 47], ["author_id", 4], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 47], ["author_id", 4], ["created_at", "2021-10-29 10:31:07.092501"], ["updated_at", "2021-10-29 10:31:07.092501"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (75.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 48], ["author_id", 4], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 48], ["author_id", 4], ["created_at", "2021-10-29 10:31:07.176456"], ["updated_at", "2021-10-29 10:31:07.176456"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (50.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 49], ["author_id", 4], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 49], ["author_id", 4], ["created_at", "2021-10-29 10:31:07.234211"], ["updated_at", "2021-10-29 10:31:07.234211"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (73.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 50], ["author_id", 5], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 50], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.315055"], ["updated_at", "2021-10-29 10:31:07.315055"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (50.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 51], ["author_id", 5], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 51], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.373317"], ["updated_at", "2021-10-29 10:31:07.373317"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (50.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 52], ["author_id", 5], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 52], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.431483"], ["updated_at", "2021-10-29 10:31:07.431483"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (49.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 53], ["author_id", 5], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 53], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.488138"], ["updated_at", "2021-10-29 10:31:07.488138"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (49.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 54], ["author_id", 5], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 54], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.546104"], ["updated_at", "2021-10-29 10:31:07.546104"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (50.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 55], ["author_id", 5], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 55], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.604824"], ["updated_at", "2021-10-29 10:31:07.604824"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (47.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 56], ["author_id", 5], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 56], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.660614"], ["updated_at", "2021-10-29 10:31:07.660614"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (50.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 57], ["author_id", 5], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 57], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.718420"], ["updated_at", "2021-10-29 10:31:07.718420"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (74.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 58], ["author_id", 5], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 58], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.801892"], ["updated_at", "2021-10-29 10:31:07.801892"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (47.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 59], ["author_id", 5], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 59], ["author_id", 5], ["created_at", "2021-10-29 10:31:07.858264"], ["updated_at", "2021-10-29 10:31:07.858264"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (50.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 60], ["author_id", 6], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 60], ["author_id", 6], ["created_at", "2021-10-29 10:31:07.915855"], ["updated_at", "2021-10-29 10:31:07.915855"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (49.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 61], ["author_id", 6], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 61], ["author_id", 6], ["created_at", "2021-10-29 10:31:07.973413"], ["updated_at", "2021-10-29 10:31:07.973413"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (50.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 62], ["author_id", 6], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 62], ["author_id", 6], ["created_at", "2021-10-29 10:31:08.030535"], ["updated_at", "2021-10-29 10:31:08.030535"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (50.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 63], ["author_id", 6], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 63], ["author_id", 6], ["created_at", "2021-10-29 10:31:08.088918"], ["updated_at", "2021-10-29 10:31:08.088918"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (48.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 64], ["author_id", 6], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 64], ["author_id", 6], ["created_at", "2021-10-29 10:31:08.145362"], ["updated_at", "2021-10-29 10:31:08.145362"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (50.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 65], ["author_id", 6], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 65], ["author_id", 6], ["created_at", "2021-10-29 10:31:08.204009"], ["updated_at", "2021-10-29 10:31:08.204009"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (50.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 66], ["author_id", 6], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 66], ["author_id", 6], ["created_at", "2021-10-29 10:31:08.260147"], ["updated_at", "2021-10-29 10:31:08.260147"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (75.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 67], ["author_id", 6], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 67], ["author_id", 6], ["created_at", "2021-10-29 10:31:08.343478"], ["updated_at", "2021-10-29 10:31:08.343478"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (49.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 68], ["author_id", 6], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 68], ["author_id", 6], ["created_at", "2021-10-29 10:31:08.399260"], ["updated_at", "2021-10-29 10:31:08.399260"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (114.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 69], ["author_id", 6], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 69], ["author_id", 6], ["created_at", "2021-10-29 10:31:08.521243"], ["updated_at", "2021-10-29 10:31:08.521243"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (49.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 70], ["author_id", 7], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.7ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 70], ["author_id", 7], ["created_at", "2021-10-29 10:31:08.578935"], ["updated_at", "2021-10-29 10:31:08.578935"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (48.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 71], ["author_id", 7], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 71], ["author_id", 7], ["created_at", "2021-10-29 10:31:08.635666"], ["updated_at", "2021-10-29 10:31:08.635666"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (75.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 72], ["author_id", 7], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 72], ["author_id", 7], ["created_at", "2021-10-29 10:31:08.717940"], ["updated_at", "2021-10-29 10:31:08.717940"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (74.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 73], ["author_id", 7], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 73], ["author_id", 7], ["created_at", "2021-10-29 10:31:08.798745"], ["updated_at", "2021-10-29 10:31:08.798745"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (53.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 74], ["author_id", 7], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 74], ["author_id", 7], ["created_at", "2021-10-29 10:31:08.859483"], ["updated_at", "2021-10-29 10:31:08.859483"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (53.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 75], ["author_id", 7], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 75], ["author_id", 7], ["created_at", "2021-10-29 10:31:08.922664"], ["updated_at", "2021-10-29 10:31:08.922664"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (48.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 76], ["author_id", 7], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 76], ["author_id", 7], ["created_at", "2021-10-29 10:31:08.978301"], ["updated_at", "2021-10-29 10:31:08.978301"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (50.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 77], ["author_id", 7], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 77], ["author_id", 7], ["created_at", "2021-10-29 10:31:09.036045"], ["updated_at", "2021-10-29 10:31:09.036045"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (75.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 78], ["author_id", 7], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 78], ["author_id", 7], ["created_at", "2021-10-29 10:31:09.121136"], ["updated_at", "2021-10-29 10:31:09.121136"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (51.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 79], ["author_id", 7], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 79], ["author_id", 7], ["created_at", "2021-10-29 10:31:09.179557"], ["updated_at", "2021-10-29 10:31:09.179557"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (52.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 80], ["author_id", 8], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 80], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.240369"], ["updated_at", "2021-10-29 10:31:09.240369"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (74.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 81], ["author_id", 8], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 81], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.322331"], ["updated_at", "2021-10-29 10:31:09.322331"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (75.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 82], ["author_id", 8], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 82], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.407620"], ["updated_at", "2021-10-29 10:31:09.407620"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (51.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 83], ["author_id", 8], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 83], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.467082"], ["updated_at", "2021-10-29 10:31:09.467082"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (77.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 84], ["author_id", 8], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 84], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.551083"], ["updated_at", "2021-10-29 10:31:09.551083"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (49.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 85], ["author_id", 8], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 85], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.609087"], ["updated_at", "2021-10-29 10:31:09.609087"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (51.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 86], ["author_id", 8], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 86], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.670279"], ["updated_at", "2021-10-29 10:31:09.670279"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (49.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 87], ["author_id", 8], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 87], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.727781"], ["updated_at", "2021-10-29 10:31:09.727781"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (50.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 88], ["author_id", 8], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 88], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.786286"], ["updated_at", "2021-10-29 10:31:09.786286"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (52.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 89], ["author_id", 8], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 89], ["author_id", 8], ["created_at", "2021-10-29 10:31:09.845940"], ["updated_at", "2021-10-29 10:31:09.845940"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (50.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 90], ["author_id", 9], ["name", "Book 0"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 90], ["author_id", 9], ["created_at", "2021-10-29 10:31:09.903573"], ["updated_at", "2021-10-29 10:31:09.903573"], ["name", "Book 0"]]
+  [1m[36mTRANSACTION (78.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 91], ["author_id", 9], ["name", "Book 1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 91], ["author_id", 9], ["created_at", "2021-10-29 10:31:09.988645"], ["updated_at", "2021-10-29 10:31:09.988645"], ["name", "Book 1"]]
+  [1m[36mTRANSACTION (51.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 92], ["author_id", 9], ["name", "Book 2"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 92], ["author_id", 9], ["created_at", "2021-10-29 10:31:10.046138"], ["updated_at", "2021-10-29 10:31:10.046138"], ["name", "Book 2"]]
+  [1m[36mTRANSACTION (77.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 93], ["author_id", 9], ["name", "Book 3"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 93], ["author_id", 9], ["created_at", "2021-10-29 10:31:10.134706"], ["updated_at", "2021-10-29 10:31:10.134706"], ["name", "Book 3"]]
+  [1m[36mTRANSACTION (74.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 94], ["author_id", 9], ["name", "Book 4"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 94], ["author_id", 9], ["created_at", "2021-10-29 10:31:10.217603"], ["updated_at", "2021-10-29 10:31:10.217603"], ["name", "Book 4"]]
+  [1m[36mTRANSACTION (49.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 95], ["author_id", 9], ["name", "Book 5"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 95], ["author_id", 9], ["created_at", "2021-10-29 10:31:10.275475"], ["updated_at", "2021-10-29 10:31:10.275475"], ["name", "Book 5"]]
+  [1m[36mTRANSACTION (52.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 96], ["author_id", 9], ["name", "Book 6"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 96], ["author_id", 9], ["created_at", "2021-10-29 10:31:10.334460"], ["updated_at", "2021-10-29 10:31:10.334460"], ["name", "Book 6"]]
+  [1m[36mTRANSACTION (76.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 97], ["author_id", 9], ["name", "Book 7"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.7ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 97], ["author_id", 9], ["created_at", "2021-10-29 10:31:10.418943"], ["updated_at", "2021-10-29 10:31:10.418943"], ["name", "Book 7"]]
+  [1m[36mTRANSACTION (51.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 98], ["author_id", 9], ["name", "Book 8"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 98], ["author_id", 9], ["created_at", "2021-10-29 10:31:10.478344"], ["updated_at", "2021-10-29 10:31:10.478344"], ["name", "Book 8"]]
+  [1m[36mTRANSACTION (52.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? AND "books"."author_id" = ? AND "books"."name" = ? LIMIT ?[0m  [["id", 99], ["author_id", 9], ["name", "Book 9"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "author_id", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["id", 99], ["author_id", 9], ["created_at", "2021-10-29 10:31:10.536689"], ["updated_at", "2021-10-29 10:31:10.536689"], ["name", "Book 9"]]
+  [1m[36mTRANSACTION (52.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2021-10-29 16:31:11 +0600
+Processing by AuthorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering authors/index.html.erb within layouts/application
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
+  ↳ app/views/authors/index.html.erb:13
+  Rendered authors/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2005)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 5150)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms | Allocations: 5612)
+
+
+Started GET "/" for ::1 at 2021-10-29 16:31:12 +0600
+Processing by AuthorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering authors/index.html.erb within layouts/application
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
+  ↳ app/views/authors/index.html.erb:13
+  Rendered authors/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2003)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 5143)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 5603)
+
+
+Started GET "/authors/0/show_all_books" for ::1 at 2021-10-29 16:31:13 +0600
+Processing by AuthorsController#show_all_books as HTML
+  Parameters: {"id"=>"0"}
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/authors_controller.rb:65:in `set_author'
+  Rendering layout layouts/application.html.erb
+  Rendering authors/show_all_books.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."author_id" = ?[0m  [["author_id", 0]]
+  ↳ app/views/authors/show_all_books.html.erb:3
+  Rendered authors/show_all_books.html.erb within layouts/application (Duration: 1.5ms | Allocations: 832)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4554)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.3ms | Allocations: 5611)
+
+
