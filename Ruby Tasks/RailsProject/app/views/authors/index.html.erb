@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Authors</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @authors.each do |author| %>
+      <tr>
+          <td><%=author.name%></td>
+        <td><%= link_to 'Информация об авторе', author %></td>
+        <td><%= link_to 'Все книги', show_all_books_author_path(author)%></td>
+        <td><%= link_to 'Изменить', edit_author_path(author) %></td>
+        <td><%= link_to 'Удалить', author, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Новый автор', new_author_path %>
