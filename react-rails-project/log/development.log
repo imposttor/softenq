@@ -1,0 +1,140 @@
+Started GET "/" for 127.0.0.1 at 2021-10-30 18:08:33 +0600
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ilya/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ilya/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.0ms | Allocations: 599)
+Completed 200 OK in 15ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4753)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 18:08:36 +0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ilya/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ilya/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.5ms | Allocations: 268)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 1192)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 18:08:36 +0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ilya/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ilya/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 50)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 471)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 18:09:47 +0600
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2021-10-30 18:10:57 +0600
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 517)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/react-rails-project/public/packs
+[Webpacker] Hash: c7e9b79820807aae9eb4
+Version: webpack 4.46.0
+Time: 4005ms
+Built at: 30.10.2021 18:11:03
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-7a842f4ad5186ffc52d2.js  1.38 MiB       application  [emitted] [immutable]  application
+     js/application-7a842f4ad5186ffc52d2.js.map  1.58 MiB       application  [emitted] [dev]        application
+               js/index-887d0143e24e27ea0920.js  1.09 MiB             index  [emitted] [immutable]  index
+           js/index-887d0143e24e27ea0920.js.map  1.26 MiB             index  [emitted] [dev]        index
+    js/server_rendering-6454ee847a504b459587.js  1.26 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-6454ee847a504b459587.js.map  1.45 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]              
+Entrypoint application = js/application-7a842f4ad5186ffc52d2.js js/application-7a842f4ad5186ffc52d2.js.map
+Entrypoint index = js/index-887d0143e24e27ea0920.js js/index-887d0143e24e27ea0920.js.map
+Entrypoint server_rendering = js/server_rendering-6454ee847a504b459587.js js/server_rendering-6454ee847a504b459587.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 219 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 710 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 772 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5371.0ms | Allocations: 15089)
+Completed 200 OK in 5378ms (Views: 5372.7ms | ActiveRecord: 0.0ms | Allocations: 18645)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 18:17:46 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 136)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 79cde501c35f33d240ad
+Version: webpack 4.46.0
+Time: 1220ms
+Built at: 30.10.2021 18:17:48
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-636304e26ba39dae852d.js  1.38 MiB       application  [emitted] [immutable]  application
+     js/application-636304e26ba39dae852d.js.map  1.58 MiB       application  [emitted] [dev]        application
+               js/index-81b257f024bf6e6ffcf0.js  1.09 MiB             index  [emitted] [immutable]  index
+           js/index-81b257f024bf6e6ffcf0.js.map  1.26 MiB             index  [emitted] [dev]        index
+    js/server_rendering-5bd2d997b6b3f17322ed.js  1.26 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-5bd2d997b6b3f17322ed.js.map  1.45 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]              
+Entrypoint application = js/application-636304e26ba39dae852d.js js/application-636304e26ba39dae852d.js.map
+Entrypoint index = js/index-81b257f024bf6e6ffcf0.js js/index-81b257f024bf6e6ffcf0.js.map
+Entrypoint server_rendering = js/server_rendering-5bd2d997b6b3f17322ed.js js/server_rendering-5bd2d997b6b3f17322ed.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 195 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 710 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 772 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 31 hidden modules
+
+ERROR in ./app/javascript/packs/index.jsx
+Module not found: Error: Can't resolve '../components/App' in '/home/ilya/Tasks/react-rails-project/app/javascript/packs'
+ @ ./app/javascript/packs/index.jsx 10:0-36 12:52-55
+
+  Rendered layout layouts/application.html.erb (Duration: 2408.7ms | Allocations: 11501)
+Completed 200 OK in 2410ms (Views: 2409.4ms | Allocations: 12315)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 18:18:04 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 136)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: a9709a8920a9d29be4b8
+Version: webpack 4.46.0
+Time: 1191ms
+Built at: 30.10.2021 18:18:07
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-ba7cbe647f1bdf7be1ff.js  1.38 MiB       application  [emitted] [immutable]  application
+     js/application-ba7cbe647f1bdf7be1ff.js.map  1.58 MiB       application  [emitted] [dev]        application
+               js/index-81b257f024bf6e6ffcf0.js  1.09 MiB             index  [emitted] [immutable]  index
+           js/index-81b257f024bf6e6ffcf0.js.map  1.26 MiB             index  [emitted] [dev]        index
+    js/server_rendering-6deab4c807c8f30e51fa.js  1.26 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-6deab4c807c8f30e51fa.js.map  1.45 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]              
+Entrypoint application = js/application-ba7cbe647f1bdf7be1ff.js js/application-ba7cbe647f1bdf7be1ff.js.map
+Entrypoint index = js/index-81b257f024bf6e6ffcf0.js js/index-81b257f024bf6e6ffcf0.js.map
+Entrypoint server_rendering = js/server_rendering-6deab4c807c8f30e51fa.js js/server_rendering-6deab4c807c8f30e51fa.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 195 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 710 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 772 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 31 hidden modules
+
+ERROR in ./app/javascript/packs/index.jsx
+Module not found: Error: Can't resolve '../components/App' in '/home/ilya/Tasks/react-rails-project/app/javascript/packs'
+ @ ./app/javascript/packs/index.jsx 10:0-36 12:52-55
+
+  Rendered layout layouts/application.html.erb (Duration: 2383.1ms | Allocations: 4433)
+Completed 200 OK in 2384ms (Views: 2383.8ms | Allocations: 5216)
+
+
