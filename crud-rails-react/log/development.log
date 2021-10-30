@@ -1,0 +1,566 @@
+Started GET "/" for 127.0.0.1 at 2021-10-30 16:14:40 +0600
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 478)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 1260ms
+Built at: 30.10.2021 16:14:43
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2874.1ms | Allocations: 15088)
+Completed 200 OK in 2894ms (Views: 2887.1ms | ActiveRecord: 0.0ms | Allocations: 19642)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:10:24 +0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: 9cf55486366447801db0
+Version: webpack 4.46.0
+Time: 3407ms
+Built at: 30.10.2021 17:10:29
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-c74afab29c5bc34d3d8b.js   1.06 MiB        index  [emitted] [immutable]  index
+      js/index-c74afab29c5bc34d3d8b.js.map   1.22 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-c74afab29c5bc34d3d8b.js js/index-c74afab29c5bc34d3d8b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 499 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 13 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 4589.0ms | Allocations: 3582)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4597.4ms | Allocations: 10291)
+Completed 200 OK in 4605ms (Views: 4599.2ms | ActiveRecord: 0.0ms | Allocations: 13949)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:16:24 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: d0c395cfbfb6456ee1ae
+Version: webpack 4.46.0
+Time: 16804ms
+Built at: 30.10.2021 17:16:42
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-823287e63b0b599d1518.js   7.93 MiB        index  [emitted] [immutable]  index
+      js/index-823287e63b0b599d1518.js.map   7.29 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-823287e63b0b599d1518.js js/index-823287e63b0b599d1518.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 499 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1058 hidden modules
+
+ERROR in ./app/javascript/components/Home.jsx
+Module not found: Error: Can't resolve './Header' in '/home/ilya/Tasks/crud-rails-react/app/javascript/components'
+ @ ./app/javascript/components/Home.jsx 6:0-30 18:38-44
+ @ ./app/javascript/routes/index.jsx
+ @ ./app/javascript/components/App.jsx
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered home/index.html.erb within layouts/application (Duration: 18024.4ms | Allocations: 2898)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18030.1ms | Allocations: 7229)
+Completed 200 OK in 18031ms (Views: 18030.5ms | Allocations: 7776)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:17:36 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1629)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 5876)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 6318)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:21:50 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 3530db5bc3270f4fb760
+Version: webpack 4.46.0
+Time: 5977ms
+Built at: 30.10.2021 17:21:57
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-c594eb3974c117cb5fd2.js   5.82 MiB        index  [emitted] [immutable]  index
+      js/index-c594eb3974c117cb5fd2.js.map    5.1 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-c594eb3974c117cb5fd2.js js/index-c594eb3974c117cb5fd2.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 499 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1054 hidden modules
+
+ERROR in ./app/javascript/components/Home.jsx
+Module not found: Error: Can't resolve './Header' in '/home/ilya/Tasks/crud-rails-react/app/javascript/components'
+ @ ./app/javascript/components/Home.jsx 6:0-30 18:38-44
+ @ ./app/javascript/routes/index.jsx
+ @ ./app/javascript/components/App.jsx
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered home/index.html.erb within layouts/application (Duration: 7279.8ms | Allocations: 2792)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7285.2ms | Allocations: 7029)
+Completed 200 OK in 7286ms (Views: 7285.7ms | Allocations: 7469)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:23:16 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: c1ba5158e56f5270d38f
+Version: webpack 4.46.0
+Time: 6412ms
+Built at: 30.10.2021 17:23:24
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-7b6683f2488342fcabd1.js   5.82 MiB        index  [emitted] [immutable]  index
+      js/index-7b6683f2488342fcabd1.js.map    5.1 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-7b6683f2488342fcabd1.js js/index-7b6683f2488342fcabd1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 499 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1054 hidden modules
+
+ERROR in ./app/javascript/components/Home.jsx
+Module not found: Error: Can't resolve './Header' in '/home/ilya/Tasks/crud-rails-react/app/javascript/components'
+ @ ./app/javascript/components/Home.jsx 6:0-30 18:38-44
+ @ ./app/javascript/routes/index.jsx
+ @ ./app/javascript/components/App.jsx
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered home/index.html.erb within layouts/application (Duration: 7644.5ms | Allocations: 5749)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7649.6ms | Allocations: 9996)
+Completed 200 OK in 7651ms (Views: 7650.0ms | Allocations: 10437)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:24:18 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: 1d128a2bad4a2014c4bd
+Version: webpack 4.46.0
+Time: 6056ms
+Built at: 30.10.2021 17:24:25
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-f7462d14ad436beb0214.js   5.82 MiB        index  [emitted] [immutable]  index
+      js/index-f7462d14ad436beb0214.js.map    5.1 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-f7462d14ad436beb0214.js js/index-f7462d14ad436beb0214.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 499 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1054 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 7346.9ms | Allocations: 2879)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7351.6ms | Allocations: 7118)
+Completed 200 OK in 7352ms (Views: 7352.0ms | Allocations: 7563)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:24:39 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: d8dd64d94ee92fc02405
+Version: webpack 4.46.0
+Time: 861ms
+Built at: 30.10.2021 17:24:41
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-8613c0347725ffcc83d6.js   1.06 MiB        index  [emitted] [immutable]  index
+      js/index-8613c0347725ffcc83d6.js.map   1.22 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-8613c0347725ffcc83d6.js js/index-8613c0347725ffcc83d6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 499 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 12 hidden modules
+
+ERROR in ./app/javascript/packs/index.jsx
+Module not found: Error: Can't resolve '../components/App' in '/home/ilya/Tasks/crud-rails-react/app/javascript/packs'
+ @ ./app/javascript/packs/index.jsx 6:0-36 8:43-46
+
+  Rendered home/index.html.erb within layouts/application (Duration: 2038.7ms | Allocations: 2754)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2043.7ms | Allocations: 6971)
+Completed 200 OK in 2045ms (Views: 2044.1ms | Allocations: 7418)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:25:27 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: 2f43445d05973f57ae22
+Version: webpack 4.46.0
+Time: 7645ms
+Built at: 30.10.2021 17:25:36
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-82604dabe35d74495559.js   7.93 MiB        index  [emitted] [immutable]  index
+      js/index-82604dabe35d74495559.js.map   7.29 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-82604dabe35d74495559.js js/index-82604dabe35d74495559.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 501 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1058 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 8865.3ms | Allocations: 2836)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8870.6ms | Allocations: 7050)
+Completed 200 OK in 8872ms (Views: 8871.1ms | Allocations: 7491)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:25:51 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1724)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 6065)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 6838)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:26:31 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: ebbc8db7ff17b42c813d
+Version: webpack 4.46.0
+Time: 7644ms
+Built at: 30.10.2021 17:26:39
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-a6ca101ea591fc6c0f48.js   7.93 MiB        index  [emitted] [immutable]  index
+      js/index-a6ca101ea591fc6c0f48.js.map   7.29 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-a6ca101ea591fc6c0f48.js js/index-a6ca101ea591fc6c0f48.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 501 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1058 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 8878.6ms | Allocations: 2862)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8884.5ms | Allocations: 7077)
+Completed 200 OK in 8885ms (Views: 8884.9ms | Allocations: 7565)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:26:49 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: 5088d2dcd98a93872387
+Version: webpack 4.46.0
+Time: 7952ms
+Built at: 30.10.2021 17:26:58
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-56a3b04e58e4990b8d50.js   7.93 MiB        index  [emitted] [immutable]  index
+      js/index-56a3b04e58e4990b8d50.js.map   7.29 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-56a3b04e58e4990b8d50.js js/index-56a3b04e58e4990b8d50.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 501 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1058 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 9182.2ms | Allocations: 2839)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9187.0ms | Allocations: 7053)
+Completed 200 OK in 9188ms (Views: 9187.3ms | Allocations: 7499)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:27:51 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1850)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 4932)
+Completed 200 OK in 21ms (Views: 20.1ms | Allocations: 6288)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:27:52 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1617)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4399)
+Completed 200 OK in 7ms (Views: 6.8ms | Allocations: 4886)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:28:35 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: 0550d6e94f38c3d5e604
+Version: webpack 4.46.0
+Time: 7605ms
+Built at: 30.10.2021 17:28:44
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-23d8813e93ba41f97294.js   7.93 MiB        index  [emitted] [immutable]  index
+      js/index-23d8813e93ba41f97294.js.map   7.29 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-23d8813e93ba41f97294.js js/index-23d8813e93ba41f97294.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 501 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1058 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 8850.5ms | Allocations: 2864)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8855.2ms | Allocations: 5648)
+Completed 200 OK in 8856ms (Views: 8855.6ms | Allocations: 6089)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:29:01 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: 34e46691a315fedf9e00
+Version: webpack 4.46.0
+Time: 7552ms
+Built at: 30.10.2021 17:29:09
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-ebd032ef0a632596f7ee.js   7.93 MiB        index  [emitted] [immutable]  index
+      js/index-ebd032ef0a632596f7ee.js.map   7.29 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-ebd032ef0a632596f7ee.js js/index-ebd032ef0a632596f7ee.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 501 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1058 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 8782.0ms | Allocations: 2904)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8785.4ms | Allocations: 5689)
+Completed 200 OK in 8786ms (Views: 8785.8ms | Allocations: 6129)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:44:24 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: e6f39aa36c68dd393abb
+Version: webpack 4.46.0
+Time: 7445ms
+Built at: 30.10.2021 17:44:33
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-2e318a9eb7d7c4634306.js   7.93 MiB        index  [emitted] [immutable]  index
+      js/index-2e318a9eb7d7c4634306.js.map   7.29 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-2e318a9eb7d7c4634306.js js/index-2e318a9eb7d7c4634306.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 499 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 733 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1058 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 8683.6ms | Allocations: 2835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8686.6ms | Allocations: 5617)
+Completed 200 OK in 8688ms (Views: 8687.0ms | Allocations: 6059)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:45:10 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ilya/Tasks/crud-rails-react/public/packs
+[Webpacker] Hash: d96d313a390a966fdf9a
+Version: webpack 4.46.0
+Time: 7925ms
+Built at: 30.10.2021 17:45:19
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-983febe22075e1f729ad.js   7.93 MiB        index  [emitted] [immutable]  index
+      js/index-983febe22075e1f729ad.js.map   7.29 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+Entrypoint index = js/index-983febe22075e1f729ad.js js/index-983febe22075e1f729ad.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 499 bytes {index} [built]
+[./app/javascript/routes/index.jsx] 738 bytes {index} [built]
+[./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {index} [optional] [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 1058 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 9129.0ms | Allocations: 2837)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9132.2ms | Allocations: 5628)
+Completed 200 OK in 9133ms (Views: 9132.7ms | Allocations: 6068)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-30 17:46:34 +0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1617)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4399)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 4839)
+
+
